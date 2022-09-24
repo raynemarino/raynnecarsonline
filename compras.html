@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+        <meta charset="utf-8">
+		<title>buyin cars</title>
+		<link href="carrosestilo.css" rel="stylesheet">
+    </head>
+ 
+        
+       <body>
+        <li class="links"><a href="index.html">início</a></li>
+		
+	</body>
+            
+            
+            <h1>VENDER MEU CARRO</h1>
+    <form action="arquivo.php" method="POST">
+    <div>
+      <label>Nome:
+        <input type="text" name="nome"placeholder="Digite seu nome ">
+        </label>    
+    </div>
+        <br>
+    <div>
+        <label>Email
+            <input type="text" name="email"placeholder="Infotrme um email válido">
+        </label>    
+    </div>
+        <br>
+        <div>
+            <label>ano do veículo
+            <input type="date" name="dtnas">
+            </label>
+        </div>
+            <br>
+       
+            <br>
+         <div>
+             <fildset>
+            <legend>MARCAS</legend>
+            <label>
+                <input type="checkbox" name="marcas" Value="Fiat">
+             Fiat
+            </label>
+            <label>
+                <input type="checkbox" name=" VolksWagen">
+                               Volkswagen
+
+                 </label>
+                 <label>
+            <input type="checkbox"name="marca"value="Toyota"checked>
+               Toyota
+                     <input type="checkbox" name="marcas" Value="Chevrolet">
+             Chevrolet
+            </label>
+            <label>
+                <input type="checkbox" name="Honda ">
+                   honda
+                 </label>
+                 <label>
+            <input type="checkbox"name="marca"value="Nissan"checked>
+               Nissan
+                </label>
+                </fildset>
+            </div>
+            <br>
+        <div>
+            <label> Estado:
+                <select name="Bairro">
+                    <option value="Informe Seu Bairro"selected>Informe Seu estado</option>
+                    <option value="São Paulo">São Paulo </option>
+                    <option value="Bahia"> Bahia</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                </select>
+            </label>
+        </div>
+            <br>
+         <div>
+            <label for="campocomentario">Mais referêcias do carro que deseja comprar:</label>
+            <br>
+                <textarea name=comentario"" id="campocomentario" rows=10 cols="200"></textarea>
+        </div>
+            <br>
+       
+            <br>
+        <div>
+            <label>uma nota para nossos carros
+                
+                <input type="number" name="nota" min="0" max="10" step="1">  
+            </label>
+        </div>
+            <br>
+          <div>
+            <button type="submit">comprar</button>
+            <button type="reset">refazer</button>
+        </div>
+    </form>
+            
+            
+            
+             <footer>
+                 <li class="links"><a href="carrosseminovos.html">início</a></li>
+        </footer>
+       
+
+</html>
