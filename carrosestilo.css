@@ -1,0 +1,214 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+header{
+	background-color:darkseagreen;
+	width: 100%;
+	height:20vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	 background-color: #000000 ;
+}
+h1{
+    color: #FF4500	;
+}
+	
+}
+#logo{
+    width:10%;
+    height: 100%;
+}
+#logo img{
+    width: 50%;
+    height: 50%;
+}
+nav ul{
+	
+	list-style:none; 
+	width: 700px;
+	height:50px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+    
+}
+nav a{
+	text-decoration: none;
+	color:#000000;
+}
+ main{
+	padding-top: 10vh;
+	background-color: #000000;
+	height:110vh;
+     color: #f1f1f1f1;
+     
+}
+
+  
+       
+#propaganda{
+    
+width: 100%;
+height: 60%;
+    
+}
+#propaganda img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    
+}
+#imagensdecarro{
+    width: 100%;
+	height: 30vh;
+/*	margin: 20rem 0; o problema ta aqui*/
+	background-color: black;
+    display: flex;
+    
+}
+
+.links{
+    font-family: 'Bree Serif', serif;
+    font-size:40px;
+    border: 1px solid;
+    border-color: #ff4500;
+    border-radius: 100px;
+    color: #ff4500;
+    line-height: 22px;
+    padding: 9px 16px;
+       background-color: white;
+    
+
+}
+
+#golf{
+      margin: 10px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+   
+   
+}
+#golf img{
+    
+    width: 100%;
+    height: 100%;
+    }
+
+#toro{
+    margin: 12px;
+    width:33%;
+    height: 100%;
+    text-align:center;
+}
+#toro img{
+    width: 100%;
+    height: 100%;
+}
+#corola{
+    margin: 8px;
+    width: 150%;
+    height: 100%;
+    text-align: center;
+     border-radius: 50%;
+    
+}
+
+
+#corola img{
+    width: 100%;
+    height: 100%;
+    
+}
+#palio{
+      margin: 10px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+   
+   
+}
+#palio img{
+    
+    width: 100%;
+    height: 100%;
+    }
+
+#honda{
+    margin: 12px;
+    width:33%;
+    height: 100%;
+    text-align:center;
+}
+#honda img{
+    width: 100%;
+    height: 100%;
+}
+#renault{
+    margin: 8px;
+    width: 150%;
+    height: 100%;
+    text-align: center;
+     border-radius: 50%;
+    
+}
+
+
+#renault img{
+    width: 100%;
+    height: 100%;
+    
+}
+#uno{
+      margin: 10px;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+   
+   
+}
+#uno img{
+    
+    width: 100%;
+    height: 100%;
+    }
+
+#hilux{
+    margin: 12px;
+    width:33%;
+    height: 100%;
+    text-align:center;
+}
+#hilux img{
+    width: 100%;
+    height: 100%;
+}
+#monza{
+    margin: 8px;
+    width: 150%;
+    height: 100%;
+    text-align: center;
+     border-radius: 50%;
+    
+}
+
+
+#monza img{
+    width: 100%;
+    height: 100%;
+    
+}
+iframe{
+    align-items: center;
+    
+}
+footer{
+	background-color: brown;
+	height: 20vh;
+}
+
+ 
+
